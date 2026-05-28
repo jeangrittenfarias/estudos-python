@@ -3,9 +3,16 @@
 # Calculadora simples
 # =========================
 
-num1 = input("Digite o primeiro número: ")
-num2 = input("Digite o segundo número: ")
-print("A soma é: " + num1 + num2) 
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+soma = num1 + num2
+subtracao = num1 - num2
+divisao = num1 / num2
+multiplicacao = num1 * num2
+print(f"Soma: {soma}")
+print(f"Subtração: {subtracao}")
+print(f"Divisão: {divisao}")
+print(f"Multiplicação: {multiplicacao}")
 
 
 
